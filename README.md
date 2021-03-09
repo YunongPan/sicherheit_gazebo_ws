@@ -35,11 +35,12 @@ WZL Projekt - Simulation in Gazebo for security concept.
 	`source ~/sicherheit_gazebo_ws/devel/setup.bash`  
   
 	`export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/sicherheit_gazebo_ws/src/gazebo_plugin/plannar_mover_plugin/build`  
-2. Launch simulation  
+2. Start simulation in Gazebo  
   
 	`roslaunch demonstrator_gazebo demonstrator_world.launch`  
   
 3. Use keyboard to control the person 
+  
 	*Note: Click on the current shell and use* `shift +`  
   
 	`u i o`  
@@ -55,12 +56,14 @@ WZL Projekt - Simulation in Gazebo for security concept.
 5. Start environment detection.
   
 	`roslaunch demonstrator_preprocessing environmental_detection.launch`  
-    	
+  
 6. Start speed control.
   
 	`roslaunch laser_filters demonstrator_filter_total.launch`  
   
-  	*Note: Please keep the surrounding environment unchanged, especially within 2 meters. If the environment has changed, (for example: the cabel of the interface is moved, or the table and chairs nearby are moved) please use* `ctrl + c` *to stop the process and repeat step 5 and step 6.*  
+  	*You may change the topics of laserscan in Rviz to observe the filtered laserscan data. Please change the topics of Laserscan to* ***/laserscan_filtered/front*** *and* ***/laserscan_filtered_rear***   
+	
+	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model.*
   
 
 
