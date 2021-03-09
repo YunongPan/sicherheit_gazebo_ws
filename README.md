@@ -61,9 +61,9 @@ WZL Projekt - Simulation in Gazebo for security concept.
   
 	`roslaunch laser_filters demonstrator_filter_total.launch`  
   
-  	*You may change the topics of laserscan in Rviz to observe the filtered laserscan data. Please change the topics of Laserscan to* ***/laserscan_filtered/front*** *and* ***/laserscan_filtered_rear***   
+  	*You may change the topics of Laserscan in Rviz to observe the filtered laserscan data. Please change the topics of Laserscan to* ***/laserscan_filtered/front*** *and* ***/laserscan_filtered_rear***   
 	
-	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model.*
+	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model. In the second terminal the change in speed is displayed*
   
 
 
