@@ -39,9 +39,14 @@ WZL Projekt - Simulation in Gazebo for security concept.
   
 	`roslaunch demonstrator_gazebo demonstrator_world.launch`  
   
-3. Use keyboard to control the person  
+3. Use keyboard to control the person 
+	*Note: Click on the current shell and use* `shift +`  
   
-	Usage please see: https://github.com/ros-teleop/teleop_twist_keyboard  
+	`u i o`  
+	`j k l`  
+	`m , .`
+  
+	More details about usage please see: https://github.com/ros-teleop/teleop_twist_keyboard  
   
 4. Open another terminal and source the environment.
   
