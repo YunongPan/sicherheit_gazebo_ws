@@ -1,5 +1,5 @@
 # sicherheit_gazebo_ws
-WZL Projekt - Simulation in Gazebo for security concept. 
+WZL Projckt - Simulation in Gazebo for security concept. 
 
 ## Requirements
 - **python-catkin-tools**
