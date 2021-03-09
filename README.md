@@ -32,7 +32,7 @@ WZL Projekt - Simulation in Gazebo for security concept.
 ## Testing
 1. Source env setting  
   
-	`source ~/group_surfing_ws/devel/setup.bash`  
+	`source ~/sicherheit_gazebo_ws/devel/setup.bash`  
   
 	`export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/sicherheit_gazebo_ws/src/gazebo_plugin/plannar_mover_plugin/build`  
 2. Launch simulation  
@@ -42,4 +42,21 @@ WZL Projekt - Simulation in Gazebo for security concept.
 3. Use keyboard to control the person  
   
 	Usage please see: https://github.com/ros-teleop/teleop_twist_keyboard  
+  
+4. Open another terminal and source the environment.
+  
+	`source ~/sicherheit_gazebo_ws/devel/setup.bash`  
+  
+5. Start environment detection.
+  
+	`roslaunch demonstrator_preprocessing environmental_detection.launch`  
+    	
+6. Start speed control.
+  
+	`roslaunch laser_filters demonstrator_filter_total.launch`  
+  
+  	*Note: Please keep the surrounding environment unchanged, especially within 2 meters. If the environment has changed, (for example: the cabel of the interface is moved, or the table and chairs nearby are moved) please use* `ctrl + c` *to stop the process and repeat step 5 and step 6.*  
+  
+
+
 	  
