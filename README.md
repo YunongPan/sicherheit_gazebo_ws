@@ -47,7 +47,9 @@ WZL Projekt - Simulation in Gazebo for security concept.
 	`j k l`  
 	`m , .`
   
-	More details about usage please see: https://github.com/ros-teleop/teleop_twist_keyboard  
+	*More details about usage please see: https://github.com/ros-teleop/teleop_twist_keyboard*  
+	  
+	*If you are using an German keyboard, please pay attention to the position of < and > button.*
   
 4. Open another terminal and source the environment.
   
