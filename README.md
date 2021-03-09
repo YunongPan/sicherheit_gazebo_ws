@@ -57,13 +57,15 @@ WZL Projekt - Simulation in Gazebo for security concept.
   
 	`roslaunch demonstrator_preprocessing environmental_detection.launch`  
   
-6. Start speed control.
+6. After the process of step 5 is finished, please start speed controller.
   
 	`roslaunch laser_filters demonstrator_filter_total.launch`  
   
-  	*You may change the topics of LaserScan in Rviz to observe the filtered LaserScan data. Please change the topics of LaserScan to* ***/laserscan_filtered/front*** *and* ***/laserscan_filtered_rear***   
+  	*You may change the topics of LaserScan in Rviz to observe the filtered LaserScan data. Please change the topics of LaserScan to* ***/laserscan_filtered/front*** *and* ***/laserscan_filtered/rear***   
 	
-	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model. In the second terminal the change in speed is displayed*
+	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model.*  
+  
+	*In the second terminal the change in speed is displayed*
   
 
 
