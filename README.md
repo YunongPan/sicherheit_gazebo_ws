@@ -65,7 +65,7 @@ WZL Projekt - Simulation in Gazebo for security concept.
 	
 	*Then click back to the first terminal, which is now running the Gazebo and Rviz, to use keyboard to control the movement of the human model.*  
   
-	*In the second terminal the change in speed is displayed*
+	*In the second terminal, the change in speed is displayed*
   
 
 
